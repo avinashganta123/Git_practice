@@ -1,8 +1,103 @@
-body {
-background-color: lightblue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-h1 {
-color: navy;
-margin-left: 20px;
+body {
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    border-radius: 10px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-form h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #f6121d;
+}
+
+.help-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.help-links a {
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.sign-up {
+    margin-top: 30px;
+}
+
+.sign-up p {
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+.sign-up a {
+    color: #fff;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.terms a {
+    color: #0071eb;
+}
+
